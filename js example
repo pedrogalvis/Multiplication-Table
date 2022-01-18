@@ -1,0 +1,10 @@
+<script>
+<!-- Tabla de multiplicar -->
+document.write("Tabla de multiplicar" + "<br/>" + "Hola Hijo" + "<br/>" + "cambia el número en el renglón 4 despues del signo igual" + "<br/>")
+var num = 33;
+
+for (var n = 0; n <= 10; n++) {
+    document.write(num + " * " + n + " = " + (num * n) + "<br/>");
+
+}
+</script>
